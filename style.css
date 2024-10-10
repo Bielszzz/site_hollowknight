@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #04000f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.9;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #04000f;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 10px;
+    font-size: 15px;
+    opacity: 0.9;
+  
+  }
+  
+  #itens-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+
+  }
+  
+  .item {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9999);
+    font-family: '';
+    font-weight: 400;
+
+    
+  }
+  
+  .centralizado {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 5px;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9999);
+    font-family: 'Cinzel';
+
+  }
+
+  .parag {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9999);
+    padding: 20px;
+    font-size: 20px;
+    font-family:'';
+  }
+
+  .glow {
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+    font-family: 'Cinzel';
+  }
+
+  hr {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .nomes {
+    color: white;
+    font-size: 32px;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 700px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9999);
+    text-align: center;
+    font-family: 'Cinzel';
+    font-weight: 500;
+
+  }
